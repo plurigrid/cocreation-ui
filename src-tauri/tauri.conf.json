@@ -1,0 +1,32 @@
+{
+  "package": {
+    "productName": "Co-creation UI",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "embeddedServer": {
+      "active": true
+    },
+    "bundle": {
+      "active": true,
+      "targets": ["macos", "linux"],
+      "identifier": "com.yourcompany.cocreationui"
+    },
+    "allowlist": {
+      "all": true
+    },
+    "window": {
+      "title": "Co-creation UI"
+    },
+    "security": {
+      "csp": "default-src blob: data: filesystem: ws: http: https: 'unsafe-eval' 'unsafe-inline'"
+    },
+    "inliner": {
+      "active": true
+    }
+  },
+  "build": {
+    "distDir": "../dist",
+    "devPath": "http://localhost:5000"
+  }
+}

@@ -1,0 +1,23 @@
+```toml
+[package]
+name = "co-creation-ui"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2018"
+
+[dependencies]
+tauri = "1.0.0-beta.5"
+y-crdt = "0.1.0"
+llm_chain = "0.1.0"
+
+[build-dependencies]
+tauri-build = { version = "1.0.0-beta.5" }
+
+[workspace]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+```

@@ -1,0 +1,35 @@
+{
+  "name": "co-creation-ui",
+  "version": "1.0.0",
+  "description": "A Tauri application to interact with the language model in a multiplayer mode in Rust.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "tauri dev",
+    "build": "tauri build"
+  },
+  "keywords": [
+    "tauri",
+    "rust",
+    "y-rs",
+    "llm_chain",
+    "ascii-duck"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tauri-apps/cli": "^1.0.0-beta",
+    "@tauri-apps/api": "^1.0.0-beta"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0",
+    "html-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^6.0.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "babel-loader": "^8.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  }
+}
